@@ -11,4 +11,4 @@
         counterElement.textContent = count;
     }
 
-    counterElement.addEventListener('click', incrementCounter);
+    counterElement.addEventListener('touchstart', incrementCounter);
