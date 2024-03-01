@@ -16,7 +16,7 @@ function handleTouchStart() {
 }
 
 function confirmReset() {
-    const userResponse = prompt("¿Quieres reiniciar el contador? (sí/no)");
+    const userResponse = prompt("¿Quieress reiniciar el contador? (sí/no)");
 
     if (userResponse && userResponse.toLowerCase() === 'si') {
         resetCounter();
