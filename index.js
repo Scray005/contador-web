@@ -11,7 +11,9 @@ function resetCounter() {
     counterElement.textContent = count;
 }
 
-function handleTouchStart(event) {
+counterElement.addEventListener('touchstart', function(event) {
     event.preventDefault();
     incrementCounter();
-}
+});
+
+counterElement.addEventListener('click', incrementCounter);
