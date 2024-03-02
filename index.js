@@ -1,7 +1,17 @@
 let count = 0;
 const counterElement = document.getElementById('counter');
 
+document.getElementById("resetLink").addEventListener("click", function(event) {
+    event.preventDefault();
+    confirmReset();
+});
+
 function incrementCounter() {
+    const offcanvasNavbar = document.getElementById("offcanvasNavbar");
+    if (offcanvasNavbar.classList.contains("show")) {
+        return;
+    }
+
     count++;
     counterElement.textContent = count;
 }
@@ -21,3 +31,5 @@ function confirmReset() {
         resetCounter();
     }
 }
+
+
