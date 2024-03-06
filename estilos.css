@@ -6,12 +6,12 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background-color: #000 !important; /* Fondo negro */
+    background-color: #000 !important; 
     color: #fff !important;
 }
 
 .navbar-custom {
-    background-color: #3498db !important; /* Fondo azul personalizado */
+    background-color: #FFFFFF !important;
 }
 
 
